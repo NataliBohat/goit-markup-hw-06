@@ -75,21 +75,50 @@
                   <use href="./img/symbol-defs.svg#icon-close"></use>
                 </svg>
               </button>
-              <form class="speaker-form">
-                <label for="name">Имя</label>
-                <input type="text" name="name" id="name" autofocus>
-
-                <label for="tel">Телефон</label>
-                <input type="tel" name="tel" id="tel">
-
-                <label for="mail">Почта</label>
-                <input type="email" name="mail" id="mail">
-
-                <label for="comment">Комментарий</label>
-                <textarea name="comment" id="comment" rows=""></textarea>
-
-                <input type="checkbox" name="agree" id="agree" placeholder="Введите текст">
-                <label for="agree">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+              <form class="form speaker-form">
+                <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+                <div class="form-field">
+                  <label for="name">Имя</label>
+                  <input 
+                  type="text" 
+                  name="name" 
+                  id="name" autofocus>
+                </div>
+               
+                <div class="form-field"> 
+                  <label for="tel">Телефон</label>
+                  <input 
+                  type="tel" 
+                  name="tel" 
+                  id="tel">
+                </div>
+               
+                <div class="form-field"> 
+                  <label for="mail">Почта</label>
+                  <input 
+                  type="email" 
+                  name="mail" 
+                  id="mail">
+                </div>
+               
+                <div class="form-field">
+                  <label for="comment">Комментарий</label>
+                  <textarea 
+                  name="comment" 
+                  id="comment" 
+                  rows=""
+                  placeholder="Введите текст">
+                </textarea>
+                </div>
+                
+                <div class="form-field">
+                  <input 
+                  type="checkbox" 
+                  name="agree" 
+                  id="agree" >
+                 <label for="agree">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                </div>
+                
 
                 <button type="submit">Отправить</button>
               </form>
@@ -611,7 +640,23 @@
                           <use href="./img/icons.svg#icon-linkedin"></use>
                         </svg>
                       </a>
-              </li>
+                    </li>
+              <form class="form-footer">
+                <b class="form-footer-title">Подпишитесь на рассылку</b>
+                <div class="footer-field">
+                  <label for="mail">
+                    <input 
+                    type="email" 
+                    name="mail" 
+                    id="mail" 
+                    placeholder="E-mail">
+                  </label>
+                </div>
+                <div class="footer-field">
+                  <button type="submit">Подписаться</button>
+                </div>
+                
+              </form>
             </ul>
           </div>
       </div>
