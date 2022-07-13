@@ -336,8 +336,8 @@ color: var(--secondary-text-color);
 .form-icon {
   position: absolute;
   align-items: center;
-  bottom: 14px;
-  left: 15px;
+  bottom: 11px;
+  left: 12px;
 }
 
 .form-input:focus {
